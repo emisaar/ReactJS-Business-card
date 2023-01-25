@@ -10,22 +10,22 @@ export default function Footer() {
         <div className="footer-row">
             <div className="footer-column">
                 <a href="http://twitter.com">
-                    <img src={tw_logo} alt="Twitter" width="40px"/>
+                    <img className="footer-img" src={tw_logo} alt="Twitter"/>
                 </a>
             </div>
             <div className="footer-column">
                 <a href="http://facebook.com">
-                    <img src={fb_logo} alt="Facebook" width="40px"/>
+                    <img className="footer-img" src={fb_logo} alt="Facebook"/>
                 </a>
             </div>
             <div className="footer-column">
                 <a href="http://instagram.com">
-                    <img src={ig_logo} alt="Instagram" width="40px"/>
+                    <img className="footer-img" src={ig_logo} alt="Instagram"/>
                 </a>
             </div>
             <div className="footer-column">
                 <a href="http://github.com">
-                    <img src={gh_logo} alt="GitHub" width="40px"/>
+                    <img className="footer-img" src={gh_logo} alt="GitHub"/>
                 </a>
             </div>
         </div>
